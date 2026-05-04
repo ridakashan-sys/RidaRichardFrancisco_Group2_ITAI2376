@@ -1,0 +1,36 @@
+# Paris Travel Planner Agent — Python Dependencies
+# Install all packages with: pip install -r requirements.txt
+
+# ── LangChain Ecosystem ─────────────────────────────────────────────────────
+langchain==1.2.17
+langchain-core==1.3.2
+langchain-openai==1.2.1
+langchain-google-genai==4.2.2
+langchain-groq==1.1.2
+
+# ── LangGraph (Agent & Memory) ──────────────────────────────────────────────
+langgraph==1.1.10
+langgraph-checkpoint==4.0.3
+langgraph-prebuilt==1.0.13
+langgraph-sdk==0.3.13
+
+# ── LLM Provider SDKs ───────────────────────────────────────────────────────
+openai==2.34.0
+groq==0.37.1
+google-genai==1.74.0
+
+# ── Conversational UI ───────────────────────────────────────────────────────
+gradio==6.14.0
+gradio_client==2.5.0
+
+# ── HTTP & Networking ───────────────────────────────────────────────────────
+httpx==0.28.1
+safehttpx==0.1.7
+
+# ── Data Validation ─────────────────────────────────────────────────────────
+pydantic==2.13.3
+pydantic_core==2.46.3
+
+# ── Typing Utilities ────────────────────────────────────────────────────────
+typing_extensions==4.15.0
+typing-inspection==0.4.2
